@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Search</title>
+        <link rel = "stylesheet" href = "styles.css">
+    </head>
+    <body>
+        <div>
+            <ul class = "navbar-google">    
+                <!--<a> tag is for hyperlinks, which can be used to link from one website to another  
+                right before the a tag (<a>), the text there would be the name of the hyper link.
+                 -->
+                <li class = "margin"><a href = "images.html">Images</a></li>
+                <li class = "margin"><a href = "advanced.html"> Advanced Search</a></li>
+            </ul>
+        </div>
+        <div class = "goog-img">
+            <img src = "google without image.png" height = "92">
+        </div>
+        <form action="https://www.google.com/search">
+            <input type="text" name="q" class = "search-bar">
+            <div class = "goog-img">
+                <input type="submit" value="Google Search" class = "google-search-btn">
+                <input type= "hidden" name = "tbm" value = "isch">
+                <!---for the input hidden, if you observe when we click the google image link, there
+                are 2 parameters we need to have. it looks like tbm=isch that's why we use it here -->
+                <input type="submit" name = "btnI" value="I'm Feeling Lucky" class = "google-search-btn">
+            </div>
+        </form>
+    </body>
+</html>

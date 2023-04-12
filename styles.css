@@ -1,0 +1,129 @@
+.navbar-google{
+/* The code below removes the dots inside of a list (bullet points) */
+    list-style-type:none;
+/*  moves everything to the top!*/
+    display: flex;
+    flex-direction:row;
+/*puts everything in the top end */
+    justify-content: flex-end;
+}
+
+.margin{
+    margin: 10px;
+}
+
+.search-bar{
+    border:1px solid black;
+    border-radius: 5cm;
+}
+.goog-img{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+/* unvisited link */
+a:link {
+    color: black;
+    /* no underlined link thingies, just a simple Images to click on. so it removes the underlined or 
+    any extra text :) */
+    text-decoration: none;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: black;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: black;
+  }
+  
+  /* selected link */
+  a:active {
+    color: black;
+  }
+
+.search-bar{
+    display:flex;
+    z-index: 3;
+    height:44px;
+    background: #fff;
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
+    margin: 4px auto;
+    width: calc(632px + 6px);
+    width: 584px;
+    max-width: 584px;
+}
+
+.google-search-btn{
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: Roboto,arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
+
+.advanced-search{
+    color:  #d93025;
+    font-size:20px;
+    margin: 25px 35px;
+}
+
+.line{
+    border-bottom: 1px solid #ebebeb;
+}
+
+.h2-advanced-search{
+    font-size: 16px;
+    color: #333333;
+}
+
+.div-advanced{
+    margin: 50px;
+}
+
+.row-input{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 20px;
+    font-size: 13px;
+    vertical-align: center;
+}
+
+/* it makes the text box bigger so there's a gap between the input and 'All these words' */
+.left{
+    width: 200px;
+}
+
+.right{
+    width: 385px;
+}    
+
+.btn-advanced{
+    box-shadow: none;
+    background-color: #4d90fe;
+    
+    border: 1px solid #3079ed;
+    color:#fff
+}
+
+.advanced-btn{
+    display:flex;
+    justify-content: flex-end;
+    width: 585px;
+    margin-top: 15px;
+}
